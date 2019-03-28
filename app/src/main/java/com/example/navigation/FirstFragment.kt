@@ -24,11 +24,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        // Fragment Transition will happen here : Very easy and hassle free
-        button.setOnClickListener {
-            findNavController(/*this method will find your navigation controller and action will happen
-            */).navigate(R.id.action_first_to_second_arrow) // this action define 1st Fragment to 2nd Fragment
-        }
+        // Fragment Transition will happen here : Very easy and hassle fre
     }
 
 
