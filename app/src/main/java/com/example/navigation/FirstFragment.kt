@@ -20,12 +20,8 @@ class FirstFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
 
-        // Fragment Transition will happen here : Very easy and hassle fre
-    }
 
 
 }
