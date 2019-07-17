@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/firstFragment">
-
-    <fragment
-        android:id="@+id/firstFragment"
-        android:name="com.example.navigation.FirstFragment"
-        android:label="First Fragment"
-        tools:layout="@layout/fragment_first">
-        <action
-            android:id="@+id/action_first_to_second_arrow"
-            app:destination="@id/secondFragment" />
-        <!-- Here is the action which is visually are like arrow -->
-    </fragment>
-    <fragment
-        android:id="@+id/secondFragment"
-        android:name="com.example.navigation.SecondFragment"
-        android:label="Second Fragment"
-        tools:layout="@layout/fragment_second" />
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/nav_graph"
+	app:startDestination="@id/fragment_1">
+	
+	<fragment
+		android:id="@+id/fragment_1"
+		android:name="com.example.navigation.FirstFragment"
+		android:label="First Fragment"
+		tools:layout="@layout/fragment_first" />
+	<fragment
+		android:id="@+id/fragment_2"
+		android:name="com.example.navigation.SecondFragment"
+		android:label="Second Fragment"
+		tools:layout="@layout/fragment_second" />
 </navigation>
-
-    <!--This is our navigation graph and it has no destination -->
